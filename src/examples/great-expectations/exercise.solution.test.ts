@@ -36,10 +36,13 @@ describe('KanbanBoard', () => {
 
   it('should remove a status using #removeStatus', () => {
     const board = new KanbanBoard('Things to Do');
+    
     const [status] = board.statuses;
 
     board.removeStatus(status);
     expect(board.statuses).not.toContain(status);
+
+    
   });
 });
 
