@@ -10,3 +10,4 @@ it('should demonstrate this matcher`s usage', async () => {
 
   expect(results).toHaveNoViolations();
 });
+

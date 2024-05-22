@@ -1,4 +1,4 @@
-import { render, screen } from './test/utilities.solution';
+import { render, screen } from './test/utilities';
 import Counter from '.';
 
 test('it should render the component', () => {

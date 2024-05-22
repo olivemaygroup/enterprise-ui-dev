@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "start": "vite"
   }
 }
